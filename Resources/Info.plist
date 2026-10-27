@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>CFBundleLocalizations</key>
+    <array>
+        <string>en</string>
+        <string>es</string>
+        <string>zh-Hans</string>
+        <string>hi</string>
+    </array>
+    <key>CFBundleName</key>
+    <string>ClipStack</string>
+    <key>CFBundleDisplayName</key>
+    <string>ClipStack</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.clipstack.app</string>
+    <key>CFBundleExecutable</key>
+    <string>ClipStack</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0.0</string>
+    <key>CFBundleVersion</key>
+    <string>1</string>
+    <key>LSMinimumSystemVersion</key>
+    <string>13.0</string>
+    <key>LSUIElement</key>
+    <true/>
+    <key>NSHighResolutionCapable</key>
+    <true/>
+    <key>NSDesktopFolderUsageDescription</key>
+    <string>ClipStack reads screenshots saved on your Desktop to add them to your clipboard history.</string>
+    <key>NSDocumentsFolderUsageDescription</key>
+    <string>ClipStack reads screenshots saved in Documents to add them to your clipboard history.</string>
+    <key>NSHumanReadableCopyright</key>
+    <string>MIT License</string>
+</dict>
+</plist>
