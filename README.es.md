@@ -8,7 +8,13 @@ y te deja pegar cualquier elemento anterior con un atajo de teclado.
 
 ## ⬇️ Descargar
 
-**[Descargar ClipStack.dmg](https://github.com/Zh0du/clipstack/releases/latest/download/ClipStack.dmg)**. No necesitas compilar nada.
+**Con Homebrew** (recomendado):
+
+```bash
+brew install --cask zh0du/tap/clipstack
+```
+
+**O a mano:** **[descarga ClipStack.dmg](https://github.com/Zh0du/clipstack/releases/latest/download/ClipStack.dmg)**. No necesitas compilar nada.
 
 1. Abre `ClipStack.dmg` y arrastra **ClipStack** a **Aplicaciones**.
 2. Abre ClipStack desde Aplicaciones. Aparecerá un icono 📋 en la barra de menús.

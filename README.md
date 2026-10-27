@@ -8,7 +8,13 @@ and lets you paste any earlier item with a keyboard shortcut.
 
 ## ⬇️ Download
 
-**[Download ClipStack.dmg](https://github.com/Zh0du/clipstack/releases/latest/download/ClipStack.dmg)**. You don't need to build anything.
+**With Homebrew** (recommended):
+
+```bash
+brew install --cask zh0du/tap/clipstack
+```
+
+**Or manually:** **[download ClipStack.dmg](https://github.com/Zh0du/clipstack/releases/latest/download/ClipStack.dmg)**. You don't need to build anything.
 
 1. Open `ClipStack.dmg` and drag **ClipStack** into **Applications**.
 2. Open ClipStack from Applications. A 📋 icon appears in the menu bar.
