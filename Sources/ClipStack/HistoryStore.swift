@@ -27,8 +27,8 @@ struct ClipItem: Codable, Identifiable, Equatable {
     }
 
     // Keywords in every supported language so images can be found by search.
-    private static let imageKeywords = "image imagen 图片 छवि "
-    private static let screenshotKeywords = "screenshot captura pantalla 截图 स्क्रीनशॉट "
+    private static let imageKeywords = "image imagen "
+    private static let screenshotKeywords = "screenshot captura pantalla "
 }
 
 /// Persists the history in ~/Library/Application Support/ClipStack.

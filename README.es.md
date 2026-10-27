@@ -44,7 +44,7 @@ Todas las versiones están en la página de [Releases](https://github.com/Zh0du/
 - Muévete con `↑` `↓` y pulsa `↩` para pegar, o haz **clic** en un elemento.
 - `⌘1`…`⌘9` pegan directamente uno de los primeros 9 elementos.
 - `⌘⌫` borra el elemento seleccionado, `esc` cierra el panel.
-- 🌍 Disponible en **inglés, 简体中文 (chino), हिन्दी (hindi) y español**. Cámbialo desde el menú → *Idioma*.
+- 🌍 Disponible en **inglés** (por defecto) y **español**. Cámbialo desde el menú → *Idioma*. [¡Ayuda a traducirlo a tu idioma!](#ayuda-a-traducir-clipstack)
 - El historial se mantiene al reiniciar el Mac.
 - Ignora las contraseñas copiadas desde gestores (1Password, Bitwarden, etc.).
 - Vive en la barra de menús, sin icono en el Dock.
@@ -92,11 +92,19 @@ git tag v1.0.0
 git push origin v1.0.0
 ```
 
-### Añadir un idioma
+## Ayuda a traducir ClipStack
 
-Todos los textos están en `Sources/ClipStack/Localization.swift`. Añade un caso a `AppLanguage`,
-la traducción de cada clave y un archivo `Resources/<código>.lproj/InfoPlist.strings`.
-¡Los pull requests son bienvenidos!
+Hoy ClipStack está en inglés y español, y me encantaría llevarlo a más personas. **¡Puedes ayudar!**
+Son especialmente bienvenidas las traducciones a 简体中文 (chino), हिन्दी (hindi), português, français, deutsch y 日本語,
+pero cualquier idioma suma.
+
+1. Haz un fork del repo.
+2. En `Sources/ClipStack/Localization.swift`, añade tu idioma a `AppLanguage`
+   (por ejemplo `case french = "fr"`) y su nombre en `displayName`.
+3. Traduce cada clave de `Strings.table`.
+4. Copia `Resources/en.lproj` a `Resources/<código>.lproj`, traduce `InfoPlist.strings`
+   y añade tu código a `CFBundleLocalizations` en `Resources/Info.plist`.
+5. Abre un pull request. Las revisiones de hablantes nativos también ayudan muchísimo.
 
 ## Autor
 

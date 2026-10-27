@@ -114,7 +114,6 @@ final class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
             entry.representedObject = language.rawValue
             entry.state = language == AppLanguage.current ? .on : .off
             languageMenu.addItem(entry)
-            if language == .system { languageMenu.addItem(.separator()) }
         }
         let languageItem = NSMenuItem(title: L("menu.language"), action: nil, keyEquivalent: "")
         languageItem.submenu = languageMenu

@@ -182,7 +182,7 @@ struct ClipRow: View {
         if let app = item.sourceApp { parts.append(app) }
         let relative = RelativeDateTimeFormatter()
         relative.unitsStyle = .short
-        relative.locale = AppLanguage.resolved.locale
+        relative.locale = AppLanguage.current.locale
         parts.append(relative.localizedString(for: item.date, relativeTo: Date()))
         return parts.joined(separator: " · ")
     }
