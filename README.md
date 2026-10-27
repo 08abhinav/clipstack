@@ -96,7 +96,7 @@ git push origin v1.0.0
 
 ClipStack speaks English and Spanish today, and I'd love to bring it to more people. **You can help!**
 Translations are especially welcome for 简体中文 (Chinese), हिन्दी (Hindi), Português, Français, Deutsch and 日本語,
-but any language is great.
+but any language is great. 👉 **[See the open translation issues](https://github.com/Zh0du/clipstack/issues?q=is%3Aissue+is%3Aopen+label%3Atranslation)** and comment on the one you'd like to take.
 
 1. Fork the repo.
 2. In `Sources/ClipStack/Localization.swift`, add your language to `AppLanguage`
