@@ -73,7 +73,7 @@ private enum Strings {
         "row.imageUnavailable": [
             .english: "Image unavailable",
             .spanish: "Imagen no disponible",
-            .hindi: "छवि उपलब्ध नहीं है",
+            .hindi: "इमेज उपलब्ध नहीं है",
         ],
         "row.characters": [
             .english: "%d characters",
