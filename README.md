@@ -1,6 +1,10 @@
-# ClipStack
+<p align="center">
+  <img src="assets/logo.png" width="128" alt="ClipStack logo">
+</p>
 
-**English** · [Español](README.es.md)
+<h1 align="center">ClipStack</h1>
+
+<p align="center">**English** · [Español](README.es.md)</p>
 
 A **free and open-source** clipboard manager for macOS.
 ClipStack remembers everything you copy (text, images, files and screenshots)

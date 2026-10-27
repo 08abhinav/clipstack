@@ -1,6 +1,10 @@
-# ClipStack
+<p align="center">
+  <img src="assets/logo.png" width="128" alt="ClipStack logo">
+</p>
 
-[English](README.md) · **Español**
+<h1 align="center">ClipStack</h1>
+
+<p align="center">[English](README.md) · **Español**</p>
 
 Gestor de portapapeles **gratis y open source** para macOS.
 ClipStack guarda todo lo que copias (texto, imágenes, archivos y capturas de pantalla)

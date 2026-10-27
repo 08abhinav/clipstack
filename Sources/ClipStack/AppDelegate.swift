@@ -21,7 +21,8 @@ final class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
 
     func applicationDidFinishLaunching(_ notification: Notification) {
         statusItem = NSStatusBar.system.statusItem(withLength: NSStatusItem.variableLength)
-        statusItem.button?.image = NSImage(systemSymbolName: "doc.on.clipboard", accessibilityDescription: "ClipStack")
+        statusItem.button?.image = StatusIcon.make()
+        statusItem.button?.image?.accessibilityDescription = "ClipStack"
         let menu = NSMenu()
         menu.delegate = self
         statusItem.menu = menu
